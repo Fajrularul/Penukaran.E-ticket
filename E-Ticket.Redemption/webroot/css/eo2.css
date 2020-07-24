@@ -1,0 +1,249 @@
+.message_warning3 {
+    padding: 30px;
+    background: #C3232D;
+    color: white;
+    font-weight: bold;
+    margin-top:0px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.message-1 {
+    padding: 30px;
+    background: #5CB85C;
+    color: #000000;
+    font-weight: bold;
+    margin-top:0px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.message_warning-2 {
+    padding: 30px;  
+    background: #fd9b01;
+    color: #000000;
+    font-weight: bold;
+    margin-top:0px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.message_warning-0 {
+    padding: 30px;
+    background: #C3232D;
+    color: white;
+    font-weight: bold;
+    margin-top:0px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.overlay {
+	text-align: center;
+	color: white;
+	font-size:2.0em;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    right:0;
+    top:0;
+    background: rgba(247, 2, 2,0.9);
+    z-index: 10;
+    padding: 155px 75px 75px 75px;
+    box-sizing: border-box;
+  }
+  
+  .overlay-in {
+	text-align: center;
+	font-size:2.0em;
+	color : white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right:0;
+    top:0;
+    background: rgba(28, 160, 44,0.9);
+    z-index: 100;
+    padding: 155px 75px 75px 75px;
+    box-sizing: border-box;
+  }
+  
+.overlay-multi{
+	text-align: center;
+	font-size:2.0em;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right:0;
+    top:0;
+    background: rgba(255, 209, 26,0.9);
+    z-index: 100;
+    padding: 125px 75px 75px 75px;
+    box-sizing: border-box;
+  }
+  .img {
+
+  	position: fixed;
+  }
+  
+  
+  .img-overlay{
+     text-align:left;
+    width:50%;
+    margin-left:0;
+    padding:0 0 0 0;
+      
+    
+  }
+
+  @media (min-width: 768px){
+    .overlay-multi {
+      font-size: 2.0em;
+    }     
+
+  }
+
+  .message_warning3 {
+    padding: 40px;
+    background: #C3232D;
+    color: white;
+    font-weight: bold;
+    margin-top:10px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.message-1 {
+    padding: 40px;
+    background: #5CB85C;
+    color: #000000;
+    font-weight: bold;
+    margin-top:10px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.message_warning-2 {
+    padding: 40px;
+    background: #fd9b01;
+    color: #000000;
+    font-weight: bold;
+    margin-top:10px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.message_warning-0 {
+    padding: 40px;
+    background: #C3232D;
+    color: white;
+    font-weight: bold;
+    margin-top:10px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.overlay {
+    text-align: center;
+    color: white;
+    font-size:2.4em;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    right:0;
+    top:0;
+    background: rgba(247, 2, 2,0.9);
+    z-index: 10;
+    padding: 205px 75px 75px 75px;
+    box-sizing: border-box;
+  }
+  
+  .overlay-in {
+    text-align: center;
+    font-size:2.4em;
+    color : white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right:0;
+    top:0;
+    background: rgba(28, 160, 44,0.9);
+    z-index: 100;
+    padding: 205px 75px 75px 75px;
+    box-sizing: border-box;
+  }
+  
+.overlay-multi{
+    text-align: center;
+    font-size:2.4em;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right:0;
+    top:0;
+    background: rgba(255, 209, 26,0.9);
+    z-index: 100;
+    padding: 205px 75px 75px 75px;
+    box-sizing: border-box;
+  }
+  .img {
+
+    position: fixed;
+  }
+  
+  
+  .photo{
+    text-align: center;
+    background-color: #000000;
+    max-height: 200px;
+    max-width: 200px;
+    border: 1px solid black;
+
+     }
+
+
+     .input_class{
+        width: 200px;
+        left:12.1em;
+        padding-right: 20px;
+        margin-right:  50px;
+        background-size: 0px;
+     }
+
+
+     .date_pick{
+
+        float :right;
+        color: #bbbbbb;
+
+     }
+
+     .searchForm{
+        display: inline;
+        
+
+     }
+     #id.form-control{display:inline;width:60px;
+        height:37px;
+        text-align: center;
+        padding:6px 6px;
+        font-size:13px;
+        line-height:1.846;
+        color:#666666;background-color:transparent;
+        background-image:none;border:1px solid solid;border-radius:3px;
+        -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.175);
+        -webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+
+     #name.form-control{outline:0;display:inline;width:150px;height:37px;padding:6px 16px;margin-bottom:10px;font-size:13px;line-height:1.846;color:#666666;background-color:transparent;background-image:none;border:1px solid solid;border-radius:3px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.175);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+     #tickettype-id.form-control{display:inline;width:100px;height:37px;padding:6px 16px;margin-bottom:10px;font-size:13px;line-height:1.846;color:#666666;background-color:transparent;background-image:none;border:1px solid solid;border-radius:3px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.175);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+     #t-number.form-control{display:inline;width:150px;height:37px;padding:6px 16px;margin-bottom:10px;font-size:13px;line-height:1.846;color:#666666;background-color:transparent;background-image:none;border:1px solid solid;border-radius:3px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.175);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+     
+     .input-text{margin-bottom:15px; }
+     .input-search{margin-bottom:15px; display: inline;padding-right: 5px;}
+     .input-select{margin-bottom:15px; display: inline-block;padding-right: 5px;}

@@ -1,0 +1,76 @@
+.side-nav {overflow: hidden;padding-left: 0px;}
+.side-nav li {float:left; list-style-type: none;margin-right: 2px;}
+.side-nav li a {display: block;padding: 10px;background: #337AB7;color: #fff;}
+/*DL, DT, DD TAGS LIST DATA*/
+dl {
+    margin-bottom:50px;
+}
+ 
+.subheader {
+    background:#5f9be3;
+    color:#fff;
+    float:left; 
+    font-weight:bold; 
+    margin-right:10px; 
+    padding:7px;  
+    width:100px; 
+}
+ 
+.strings p {
+    margin:2px 0; 
+    padding:15px 0;
+    padding-bottom: 0px;
+}
+
+.pagination {
+    margin: 0px !important;
+}
+.paginator {width: 60%;margin: 0 auto;}
+li.next {float: right;}
+li.prev {float: left;}
+
+.strings p:after {
+    visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " abads";
+     clear: both;
+     height: 0;
+}
+
+.alert {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999999999;
+  width: 100%; 
+}
+.message {
+    padding: 40px;
+    background: #5CB85C;
+    color: #fff;
+    margin-top:10px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.message_warning2 {
+    padding: 40px;
+    background: #fd9b01;
+    color: #fff;
+    margin-top:10px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.message_warning {
+    padding: 40px;
+    background: #C3232D;
+    color: #fff;
+    margin-top:10px;
+    font-size:2.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
